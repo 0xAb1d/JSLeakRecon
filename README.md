@@ -2,6 +2,13 @@
 
 **JSLeakRecon** is an ultimate JavaScript scanning tool designed for **offensive security professionals**, **defensive security analysts**, **penetration testers**, **bug hunters**, and **developers**. This tool helps to detect **potential credential leaks**, hardcoded sensitive information (like API keys, tokens, secrets), and other security vulnerabilities in JavaScript files. With features like **real-time URL scanning**, **multithreading**, and **stealth user-agent rotation**, JSLeakRecon is crucial for both proactive identification of security flaws before production (for defensive use) and effective reconnaissance in offensive security contexts.
 
+![IMG_2065 JPEG](https://github.com/user-attachments/assets/9aab6b2d-8e0d-4e55-99da-8513dfc05e23)
+
+![IMG_2066 JPEG](https://github.com/user-attachments/assets/0e5ee960-66d9-4823-9a94-34ed6b6d5417)
+
+![IMG_2067 JPEG](https://github.com/user-attachments/assets/83db0610-b153-4c91-b2dc-5c68f046db5b)
+
+
 ## **Table of Contents**
 - [Features](#features)
 - [Installation](#installation)
