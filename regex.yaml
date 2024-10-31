@@ -1,0 +1,22 @@
+patterns:
+  # Password patterns with length enforcement (min 6 characters - Change the value {6,} as you need)
+  generic_password_patterns:
+    - "(?i)[\"']?(pass|password|passwd|pwd|passcode|passphrase|pin)[\"']?\\s*[:=]\\s*[\"']([^\"']{6,})[\"']?"                
+
+  # Username patterns with length enforcement (min 3 characters)
+  generic_username_patterns:
+    - "(?i)[\"']?(user|username|login|usr|uid|userid|uname|admin_user|root_user|db_user|email)[\"']?\\s*[:=]\\s*[\"']([^\"']{3,})[\"']?"   
+
+  # Secret patterns (min 8 characters)
+  generic_secret_patterns:
+    - "(?i)[\"']?(secret|token|auth_token|api_key|apikey|access_token|session_token|jwt_token|encryption_key|ssh_key|crypt_key|access_key)[\"']?\\s*[:=]\\s*[\"']([^\"']{8,})[\"']?"  
+
+  # Patterns for comments that might contain sensitive data (min 5 characters)
+  comments_patterns:
+    - "(?i)(?:#|\\/\\/|\\/\\*|<!--)\\s*(pass|password|passwd|pwd|user|username|secret|token|auth_token|api_key|apikey|access_key)\\s*[:=]\\s*['\"]?([a-zA-Z0-9@#$_%&*!+-]{5,})['\"]?"   
+
+  # JSON-specific patterns - in case miss detection due to json formatting (min 3 characters)
+  json_patterns:
+    - "(?i)\"(username|password|api_key|access_token|secret|token|uid)\"\\s*:\\s*\"([^\"]{3,})\""   
+
+# I'll update more...
