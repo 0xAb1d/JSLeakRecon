@@ -41,6 +41,7 @@ def print_result(category, identified_value, js_file):
     )
     print(colored_result, end='')
 
+
 def print_message(message):
     print(f"\n    >> {message}\n")
 
@@ -135,7 +136,7 @@ def main():
             js_files = [line.strip() for line in file if line.strip()]
     elif args.folder:
         folder_path = Path(args.folder)
-        js_files = [str(p) for p in Path(folder_path).rglob('*.js')]
+        js_files = [str(p) for p in Path(folder_path).rglob('*')]  
     else:
         print("Please provide either a list of files/URLs using -l or a folder path using -f.")
         return
