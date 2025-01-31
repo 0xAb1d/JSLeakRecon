@@ -35,7 +35,7 @@ To get started with JSLeakRecon, you'll need to have **Python 3.x** installed. Y
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/JSLeakRecon.git
+   git clone https://github.com/0xAb1d/JSLeakRecon.git
    cd JSLeakRecon
    ```
 
